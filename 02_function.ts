@@ -1,6 +1,6 @@
 //Type annotations for functions
 
-const add = (a: number, b: number): number => {
+const add = (a: number, b: number):number => {
     return a + b;
   };
   
@@ -16,14 +16,15 @@ const add = (a: number, b: number): number => {
   const logger = (message: string): void => {
     console.log(message);
   };
+
   
   //Never
   
   //Never is a type that represents the absence of a value.
   
-  const throwError = (message: string): never => {
-    throw new Error(message);
-  };
+  // const throwError = (message: string): never => {
+  //   throw new Error(message);
+  // };
   
   //Type Inference for functions
   

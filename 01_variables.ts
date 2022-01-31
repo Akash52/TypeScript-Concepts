@@ -42,9 +42,9 @@ const logNumber: (i: number) => void = (i: number) => {
 
 //Typescript can not figure out the type of the variable.
 
-// const json = '{"x": 10, "y": 20}'
-// const coordinates = JSON.parse(json)
-// console.log(coordinates)
+const json = '{"x": 10, "y": 20}'
+const coordinates = JSON.parse(json)
+console.log(coordinates)
 
 //Here we fix it
 
